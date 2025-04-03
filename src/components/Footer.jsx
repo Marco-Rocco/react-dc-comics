@@ -60,9 +60,8 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <figure>
-                        <FooterLogo />
-                    </figure>
+                    <FooterLogo />
+
                 </div>
 
                 <div className="bottomBar">
@@ -72,6 +71,10 @@ export default function Footer() {
                         <span>FOLLOW US</span>
 
                         <img src="../public/img/footer-facebook.png" alt="" />
+                        <img src="../public/img/footer-twitter.png" alt="" />
+                        <img src="../public/img/footer-youtube.png" alt="" />
+                        <img src="../public/img/footer-pinterest.png" alt="" />
+                        <img src="../public/img/footer-periscope.png" alt="" />
                     </div>
                 </div>
             </footer >
