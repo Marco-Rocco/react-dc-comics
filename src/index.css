@@ -12,7 +12,7 @@ header {
   align-items: center;
 }
 
-ul {
+header ul {
   display: flex;
   gap: 1.5rem;
   list-style: none;
@@ -51,4 +51,30 @@ main li {
 
 li>img {
   width: 55px;
+}
+
+footer {
+  background-image: url(/img/footer-bg.jpg);
+  color: white;
+  padding: 30px 50px;
+}
+
+.listsContainer {
+  width: 50%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+footer h3 {
+  margin: 0px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0px;
+  color: rgba(255, 255, 255, 0.428);
+
 }
