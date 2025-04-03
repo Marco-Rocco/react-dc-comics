@@ -57,6 +57,9 @@ footer {
   background-image: url(/img/footer-bg.jpg);
   color: white;
   padding: 30px 50px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
 }
 
 .listsContainer {
@@ -77,4 +80,11 @@ footer ul {
   padding: 0px;
   color: rgba(255, 255, 255, 0.428);
 
+}
+
+footer img {
+  position: absolute;
+  top: -100px;
+  width: 600px;
+  height: 600px;
 }

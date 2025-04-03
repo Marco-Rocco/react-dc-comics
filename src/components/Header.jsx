@@ -1,4 +1,4 @@
-import Logo from "../assets/Logo"
+import Logo from "./Logo"
 
 export default function Header() {
     return (

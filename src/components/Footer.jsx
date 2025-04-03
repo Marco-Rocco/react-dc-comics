@@ -1,3 +1,5 @@
+import FooterLogo from "./FooterLogo"
+
 export default function Footer() {
     return (
         <>
@@ -56,6 +58,10 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
+
+                <figure>
+                    <FooterLogo />
+                </figure>
 
             </footer >
         </>
