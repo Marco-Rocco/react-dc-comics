@@ -18,12 +18,37 @@ ul {
   list-style: none;
 }
 
-li:nth-child(2) {
+header>li:nth-child(2) {
   color: #0282f9;
 }
 
 main {
   background-color: black;
   color: white;
-  padding: 20px 12%;
+}
+
+main>p {
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  font-size: 30px;
+}
+
+main ul {
+  background-color: #0282f9;
+  padding: 50px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+main li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+li>img {
+  width: 55px;
 }
