@@ -18,9 +18,9 @@ header ul {
   list-style: none;
 }
 
-header>li:nth-child(2) {
+/* header>li:nth-child(2) {
   color: #0282f9;
-}
+} */
 
 main {
   background-color: black;
@@ -28,8 +28,7 @@ main {
 }
 
 main>p {
-  width: 80%;
-  margin: auto;
+  margin: 0px;
   padding: 50px;
   font-size: 30px;
 }
@@ -55,9 +54,14 @@ li>img {
 
 footer {
   background-image: url(/img/footer-bg.jpg);
-  color: white;
-  padding: 30px 50px;
+}
+
+.gigaBigContainer {
+  width: 80%;
+  margin: auto;
   display: flex;
+  padding: 30px 80px;
+  color: white;
   position: relative;
   overflow: hidden;
 }
@@ -87,4 +91,33 @@ footer img {
   top: -100px;
   width: 600px;
   height: 600px;
+}
+
+.bottomBar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+
+.social {
+  display: flex;
+  width: fit-content;
+  justify-content: space-between;
+  color: #0282f9;
+  font-weight: bold;
+}
+
+.bottomBar button {
+  font-size: large;
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  padding: 10px;
+
+}
+
+.social>img {
+  width: 30px;
+  height: 30px;
 }
