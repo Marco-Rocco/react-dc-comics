@@ -1,7 +1,10 @@
 export default function Main() {
     return (
         <>
-            <p>mammt</p>
+            <main>
+                <p> <strong>Content goes here</strong></p>
+            </main>
+
         </>
     )
 }
