@@ -30,20 +30,17 @@ export default function Footer() {
                         <div className="list">
                             <h3>DC</h3>
                             <ul>
-                                <li>Characters</li>
-                                <li>Comics</li>
-                                <li>Movies</li>
-                                <li>TV</li>
-                                <li>Games</li>
-                                <li>Video</li>
-                                <li>News</li>
-                                <li>Characters</li>
-                                <li>Comics</li>
-                                <li>Movies</li>
-                                <li>TV</li>
-                                <li>Games</li>
-                                <li>Video</li>
-                                <li>News</li>
+                                <li>Terms Of Use</li>
+                                <li>Privacy Policy</li>
+                                <li>Ad Choices</li>
+                                <li>Advertaising</li>
+                                <li>Jobs</li>
+                                <li>Subscriptions</li>
+                                <li>Talent Workshop</li>
+                                <li>CPS Certificates</li>
+                                <li>Ratings</li>
+                                <li>Shop Help</li>
+                                <li>Contact Us</li>
                             </ul>
                         </div>
 
@@ -52,10 +49,9 @@ export default function Footer() {
                             <ul>
                                 <li>DC</li>
                                 <li>MAD Megaine</li>
-                                <li>Shop DC</li>
-                                <li>Shop DC</li>
-                                <li>Shop DC</li>
-                                <li>Shop DC</li>
+                                <li>DC Kids</li>
+                                <li>DC Universe</li>
+                                <li>DC Power Visa</li>
                             </ul>
                         </div>
                     </div>
