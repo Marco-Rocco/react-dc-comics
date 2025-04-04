@@ -1,6 +1,9 @@
 import Logo from "./Logo"
 
-export default function Header() {
+export default function Header(props) {
+    const menuItems = props.linksArray
+    console.log(menuItems)
+
     return (
         <>
             <header>
@@ -9,16 +12,16 @@ export default function Header() {
                 </figure>
 
                 <ul>
-                    <li>CHARACTERS</li>
-                    <li>COMICS</li>
-                    <li>MOVIES</li>
-                    <li>TV</li>
-                    <li>GAMES</li>
-                    <li>COLLECTIBLES</li>
-                    <li>VIDEOS</li>
-                    <li>FANS</li>
-                    <li>NEWS</li>
-                    <li>SHOP</li>
+                    <li>{menuItems[0]}</li>
+                    <li>{menuItems[1]}</li>
+                    <li>{menuItems[2]}</li>
+                    <li>{menuItems[3]}</li>
+                    <li>{menuItems[4]}</li>
+                    <li>{menuItems[5]}</li>
+                    <li>{menuItems[6]}</li>
+                    <li>{menuItems[7]}</li>
+                    <li>{menuItems[8]}</li>
+                    <li>{menuItems[9]}</li>
                 </ul>
             </header>
         </>
