@@ -66,11 +66,11 @@ export default function Footer() {
                     <div className="social">
                         <span>FOLLOW US</span>
 
-                        <img src="../public/img/footer-facebook.png" alt="" />
-                        <img src="../public/img/footer-twitter.png" alt="" />
-                        <img src="../public/img/footer-youtube.png" alt="" />
-                        <img src="../public/img/footer-pinterest.png" alt="" />
-                        <img src="../public/img/footer-periscope.png" alt="" />
+                        <img src="img/footer-facebook.png" alt="" />
+                        <img src="img/footer-twitter.png" alt="" />
+                        <img src="img/footer-youtube.png" alt="" />
+                        <img src="img/footer-pinterest.png" alt="" />
+                        <img src="img/footer-periscope.png" alt="" />
                     </div>
                 </div>
             </footer >
