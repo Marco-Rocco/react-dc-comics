@@ -1,14 +1,14 @@
-import comics from "../../data/comics";
+// import comics from "../../data/comics";
 
 function Card(props) {
-    const comics = props.Comics;
-    console.log(comics)
+    const comics = props.comics;
     return (
         <>
             {
                 comics.map(element =>
                     <div key={element.id} className="card">
                         <img src={element.thumb} alt={element.title} />
+                        <span>{element.title}</span>
                     </div>
                 )
             }
@@ -16,6 +16,7 @@ function Card(props) {
     )
 }
 
-console.log(Card(comics))
+// console.log(Card(comics))
 
 export default Card
+

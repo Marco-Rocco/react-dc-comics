@@ -1,14 +1,14 @@
 import Card from "./card";
-import Comics from "../../data/comics";
+import comics from "../../data/comics";
 
-export default function Main(Comics) {
+export default function Main() {
     return (
         <>
             <main>
                 <div className="jumbo"></div>
 
                 <div className="container">
-                    {/* <Card comics={Comics} /> */}
+                    <Card comics={comics} />
                 </div>
 
                 <nav>
