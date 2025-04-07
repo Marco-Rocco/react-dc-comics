@@ -2,11 +2,14 @@ export default function Main() {
     return (
         <>
             <main>
+                <div className="jumbo"></div>
+
                 <p>
                     <strong>Content goes here</strong>
                 </p>
 
                 <nav>
+
                     <ul>
                         <li><img src="public/img/buy-comics-digital-comics.png" alt="" /><span>Digital Comics</span></li>
                         <li><img src="public/img/buy-comics-merchandise.png" alt="" /><span>Digital Comics</span></li>

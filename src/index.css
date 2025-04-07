@@ -36,6 +36,12 @@ main {
   color: white;
 }
 
+.jumbo {
+  height: 400px;
+  background-image: url(/img/jumbotron.jpg);
+  background-size: cover;
+}
+
 main>p {
   margin: 0px;
   padding: 50px;
