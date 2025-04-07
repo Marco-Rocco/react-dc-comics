@@ -1,12 +1,15 @@
-export default function Main() {
+import Card from "./card";
+import Comics from "../../data/comics";
+
+export default function Main(Comics) {
     return (
         <>
             <main>
                 <div className="jumbo"></div>
 
-                <p>
-                    <strong>Content goes here</strong>
-                </p>
+                <div className="container">
+                    {/* <Card comics={Comics} /> */}
+                </div>
 
                 <nav>
 

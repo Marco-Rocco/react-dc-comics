@@ -42,7 +42,7 @@ main {
   background-size: cover;
 }
 
-main>p {
+main>.container {
   margin: 0px;
   padding: 50px;
   font-size: 30px;
