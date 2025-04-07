@@ -1,7 +1,7 @@
 import Logo from "./Logo"
 
 export default function Header(props) {
-    const menuItems = props.linksArray
+    const menuItems = props.headerArray
     console.log(menuItems)
 
     return (

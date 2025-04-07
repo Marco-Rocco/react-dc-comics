@@ -23,6 +23,10 @@ header ul {
   list-style: none;
 }
 
+header li :hover {
+  color: #0282f9;
+}
+
 /* header>li:nth-child(2) {
   color: #0282f9;
 } */

@@ -2,7 +2,7 @@ import Header from "./components/Header.jsx";
 import Main from "./components/Main.jsx";
 import Footer from "./components/Footer.jsx";
 
-const links = [
+const linksHeader = [
   "CHARACTERS",
   "COMICS",
   "MOVIES",
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Header linksArray={links} />
+      <Header headerArray={linksHeader} />
       <Main />
       <Footer />
     </>
