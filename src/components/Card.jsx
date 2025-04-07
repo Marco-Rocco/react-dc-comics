@@ -8,7 +8,7 @@ function Card(props) {
                 comics.map(element =>
                     <div key={element.id} className="card">
                         <img src={element.thumb} alt={element.title} />
-                        <span>{element.title}</span>
+                        <span>{element.series}</span>
                     </div>
                 )
             }

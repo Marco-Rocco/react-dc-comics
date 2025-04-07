@@ -46,20 +46,46 @@ main>.container {
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
+  position: relative;
 }
+
+.flag {
+  position: absolute;
+  background-color: #0282f9;
+  padding: 20px;
+  top: -40px;
+  left: 12px;
+}
+
+main button {
+  background-color: #0282f9;
+  padding: 20px 100px;
+  color: white;
+  border: 0px;
+  margin: auto;
+}
+
 
 main .card {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: calc(100% /6);
+  width: calc((100% /6));
   color: white;
+  margin-bottom: 30px;
 }
 
 main .card>img {
   width: 200px;
   height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
 
+main .card>span {
+  margin: 5px 0px;
+  font-size: smaller;
+  color: rgb(179, 179, 179);
 }
 
 main ul {
