@@ -19,9 +19,9 @@ header ul {
   list-style: none;
 }
 
-header li :hover {
+/* header li :hover {
   color: #0282f9;
-}
+} */
 
 /* header>li:nth-child(2) {
   color: #0282f9;
@@ -30,6 +30,7 @@ header li :hover {
 main {
   background-color: black;
   color: white;
+  position: relative;
 }
 
 .jumbo {
@@ -47,7 +48,7 @@ main>.container {
   margin: auto;
   position: relative;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
 }
 
 main .showcase {
@@ -92,10 +93,11 @@ main .card>img {
 }
 
 main .card>span {
-  margin: 5px 0px;
+  margin: 10px 0px;
   font-size: smaller;
   color: rgb(179, 179, 179);
   width: 200px;
+  font-weight: 500;
 }
 
 main ul {
@@ -105,6 +107,7 @@ main ul {
   display: flex;
   justify-content: center;
   gap: 100px;
+  position: relative;
 }
 
 main li {
@@ -129,12 +132,14 @@ footer {
   display: flex;
   padding: 30px 80px;
   color: white;
+  overflow: hidden;
+  position: relative;
 }
 
 .gigaBigContainer>img {
   position: absolute;
   top: -100px;
-  right: 15%;
+  right: 5%;
   height: 650px;
 }
 
