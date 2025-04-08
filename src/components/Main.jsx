@@ -9,7 +9,11 @@ export default function Main() {
 
                 <div className="container">
                     <div className="flag"> <strong>CURRENT SERIES</strong></div>
-                    <Card comics={comics} />
+
+                    <div className="showcase">
+                        <Card comics={comics} />
+                    </div>
+
                     <button><strong>LOAD MORE</strong></button>
                 </div>
 
